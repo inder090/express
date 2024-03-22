@@ -22,6 +22,8 @@ app.get("/:price", (req, res) => {
     const price = req.params.price;
     const p = products.filter(p => p.price <= price)
     res.send(p)
+
+    
 })
 
 // app.get("/products/searchkey", (req, res) => {
