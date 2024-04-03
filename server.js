@@ -1,7 +1,6 @@
 const Express = require("express");
 const { products } = require("./data");
 const app = Express();
-
 const port = 5000;
 
 app.get("/", (req, res) => {
